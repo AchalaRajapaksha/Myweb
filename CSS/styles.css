@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(to bottom, #599af0ab, #d0dbf0d0);
+  padding: 25px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+  .imgme {
+    max-width: 80px;
+    max-height: 80px;
+  }
+  .imgfb {
+   
+    max-width: 25px;
+    max-height: 25px;
+   
+  }
+
+  .imglk {
+    
+    max-width: 25px;
+    max-height: 25px;
+     }
+
+     .gif-imagebox {
+
+      max-width: 25px;
+      max-height: auto;
+
+     }
+    
+     
+    
+
+
+
+}
+/* Media query for screens between 600px and 900px wide */
+@media (min-width: 600px) and (max-width: 900px) {
+  body {
+    font-size: 18px;
+  }
+
+
+}
+
+h1 {
+ font-family:Verdana, Geneva, Tahoma, sans-serif; 
+  color: rgba(1, 71, 161, 0.897);
+  margin: 0;
+ margin-left: 6%;
+ 
+}
+ h2 {
+  font-family:fantasy;
+  color: rgba(3, 109, 104, 0.863);
+  margin: 0;
+}
+
+main {
+  background: linear-gradient(to right, #6ba4f06b, #25bba2a9);
+  padding: 20px;
+}
+
+section {
+  border-bottom-width: 10px;
+  border-bottom-color: rgb(34, 100, 177);
+  border-bottom-style:ridge;
+  margin-bottom: 40px;
+  margin-left: 10px;
+}
+
+ul {
+  color: rgba(2, 35, 105, 0.897);
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  
+  margin-bottom: 10px;
+  list-style-type:disc
+}
+
+strong {
+  font-weight: bold;
+}
+ .imgme {
+  width: 200px;
+  height: 200px;
+  float: right;
+  margin-right: 5%;
+  border-style:dotted;
+  border-color: rgb(19, 158, 135);
+  border-width: 5px;
+  margin-top: 20px;
+ 
+  
+ }
+ .imgfb {
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin-top: 5px;
+  margin-left: 60%;
+  margin-right: 40%;
+  padding: 2px;
+  position: absolute;
+ }
+
+ .imgfb:hover{
+  border-style:dotted;
+  border-color: rgb(242, 247, 248);
+  border-width: 2px;
+  
+  
+ }.imglk {
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin-top: 5px;
+  margin-left: 52%;
+  margin-right: 50%;
+  position: absolute;
+  padding: 2px;
+ }
+
+ .imglk:hover{
+  border-style:dotted;
+  border-color: rgb(242, 247, 248);
+  border-width: 2px;
+  
+ }
+
+ 
+  .gif-imagebox {
+    width: 55px;
+    height: auto;
+    position:absolute;
+    margin-top:0px;
+    
+    }
